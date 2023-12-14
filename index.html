@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Add your CSS styles here */
+       body {
+            font-family: Futura ;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #283F6A
+        }
+      
+       img { 
+         		width: 38%; 
+        		margin-top: 20px;
+						display: block; 
+      	} 
+
+        nav {
+            font-size: 10px;
+            background-color: #162437;
+            padding: 20px;
+            text-align: center;
+        }
+
+      nav a {
+            color: #ffff;
+            text-decoration: none;
+            padding: 0.5em 2.5em;
+            margin: 0.5em;
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+
+        main {
+            font-family: Inria;
+            color: #fff;
+            padding: 2em; 
+         		font-size: 15px;
+            line-height: 7px;
+          	text-align: center;
+        }
+      
+      .floating-text {
+            position: absolute;
+            top: 30%; 
+            left: 38%; 
+            transform: translate(-50%, -50%); 
+            z-index: 2; 
+            text-align: center; 
+        }
+      
+      .logo {
+            position: absolute;
+            width: 38px;  
+        		top: -12px;
+            left: 15px; 
+        }
+      
+      .instagram {
+        		position: absolute;
+            width: 20px;  
+        		top: -2px;
+            right: 35px; 
+      }
+      
+      .tiktok {
+        		position: absolute;
+            width: 17px;  
+        		top: 0px;
+            right: 75px; 
+      }
+      
+      .croatiacover {
+        		position: absolute;
+         	  width: 100%; 
+        		margin-top: 0px; 
+        		margin-left: -3%;
+						display: block; 
+      }
+        
+    </style>
+</head>
+  
+  <body>
+    <nav>
+<!-- personal and social logos -->
+       <img class="logo" src="logo.png" alt="logo"> 
+       <img class="instagram" src="instagram.png" alt="instagram logo">
+       <img class="tiktok" src="tiktok.png" alt="tiktok logo">
+<!-- navigation redirections -->
+        <a href="#">HOME</a>
+        <a href="#">CROATIA</a>
+        <a href="#">TORONTO</a>
+        <a href="#">LEBANON</a>
+        <a href="#">EGYPT</a>
+        <a href="#">GREECE</a>
+    </nav>
+
+     <main>
+<!-- picture of me, overlap text & globe -->
+       <p>TRAVEL SCRAPBOOK</p> 
+       <p>TORONTO</p>
+        <div class="floating-text">
+          <p>some cute words </p>
+          <p>and more words </p> </div>
+       <img class="croatiacover" src="croatiacover.png" alt="croatia cover page">
+    </main>
+
+  </body>
+  
+</html>
